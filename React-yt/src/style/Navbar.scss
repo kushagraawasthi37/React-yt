@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #14dcdc;
+    color: black;
+    border-radius: 0.6rem;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-right{
+        display: flex;
+        align-items: center;
+        gap:1rem;
+    }
+}
