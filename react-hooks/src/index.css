@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+button {
+  margin: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: lightsalmon;
+  ;
+  border: 2px solid whitesmoke;
+  border-radius: 0.6rem;
+}
+
+.c1 {
+  margin: 1.5rem;
+  padding: 1rem 1.5rem;
+  /* background: lightsalmon; */
+  ;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  border-radius: 0.6rem;
+}
