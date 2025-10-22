@@ -53,7 +53,7 @@ const App = () => {
           placeholder="Enter Notes Heading"
           value={heading}
           onChange={headingHandler}
-          className="w-full border-2 outline-none p-4 rounded-xl text-2xl border-white
+          className="w-full border-2 outline-none p-4 rounded-xl md:text-2xl border-white
              placeholder:text-white/40"
         />
 
@@ -65,7 +65,7 @@ const App = () => {
           id=""
           value={details}
           onChange={detailHandler}
-          className="w-full h-32 border-white border-2 outline-none p-4 rounded-xl text-lg placeholder:text-white/40 "
+          className="w-full h-32 border-white border-2 outline-none p-4 rounded-xl md:text-lg placeholder:text-white/40 "
         ></textarea>
 
         {/* Button for submission */}
@@ -78,14 +78,15 @@ const App = () => {
           className="h-60 rotate-y-180 object-cover"
         /> */}
       </form>
+
       <div className=" lg:w-1/2  p-10 lg:border-l-2 border-white">
         <h1 className="text-3xl font-bold gap-5">Recent Notes</h1>
 
-        <div className=" flex flex-wrap justify-center md:justify-start lg:justify-start items-center gap-4 h-full overflow-auto  ">
+        <div className=" flex flex-wrap justify-center md:justify-start lg:justify-start  gap-4 h-full overflow-auto  ">
           {task.map((ele, idx) => (
             <div
               key={idx}
-              className="h-52 w-44 rounded-2xl bg-white mt-8 bg-cover flex flex-col items-start justify-between  p-2 overflow-y-auto relative bg-[url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')]  scrollbar-hide"
+              className="h-40 w-32 md:h-52 md:w-44 rounded-2xl bg-white mt-8 bg-cover flex flex-col items-start justify-between  p-2 overflow-y-auto relative bg-[url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')]  scrollbar-hide"
             >
               <div className="w-full ">
                 <h1 className=" text-black text-center border-b-2 font-bold leading-tight w-full">
