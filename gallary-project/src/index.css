@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hoverHandel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px white;
+}
+
+.mini {
+  font-size: 1%;
+}
