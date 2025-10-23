@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  border: 2px solid red;
+  /* background: blue; */
+  color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  -webkit-text-stroke: 1px red;
+  border-radius: 0.7rem;
+}
+
+.info {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+}
